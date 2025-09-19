@@ -2,7 +2,7 @@ services:
   - type: web
     name: academiasphere-backend
     runtime: java
-    repo: https://github.com/YourUsername/academiasphere-project.git
+    repo: https://github.com/YourUsername/academiasphere-project.git # <-- UPDATE YourUsername HERE
     branch: main
     rootDir: backend
     buildCommand: ./mvnw clean package
