@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://academiasphere-project.onrender.com';
+const API_URL = 'https://academiasphere-project.onrender.com/api/students';
 
 const getAll = () => {
     return axios.get(API_URL);
