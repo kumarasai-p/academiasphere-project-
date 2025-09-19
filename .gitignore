@@ -1,0 +1,14 @@
+# Compiled Java files
+/backend/target/
+*.class
+
+# IDE and OS files
+.idea
+.vscode
+*.iml
+.DS_Store
+
+# Node modules and build output
+/frontend/node_modules/
+/frontend/dist/
+npm-debug.log
